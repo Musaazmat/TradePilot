@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Test and coverage output
+coverage/
+
+# Local cache
+.cache/
+.vite/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Hide application entry files
+src/App.tsx
+src/App.css
